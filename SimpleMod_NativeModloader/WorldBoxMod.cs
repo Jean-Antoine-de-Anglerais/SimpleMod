@@ -77,7 +77,7 @@ namespace SimpleMod_NativeModloader
 
             var button = Object.Instantiate(prefab, null);
 
-            prefab.gameObject.SetActive(prefab.gameObject.activeSelf);
+            prefab.gameObject.SetActive(true);
 
             button.name = "super_skeleton";
             var icon = SpriteTextureLoader.getSprite("ui/Icons/iconSkeleton");
