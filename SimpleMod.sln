@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMod_NativeModloader", "SimpleMod_NativeModloader\SimpleMod_NativeModloader.csproj", "{E6EA5249-6775-4B96-AC60-E7E82F9CF204}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMod_BepInEx", "SimpleMod_BepInEx\SimpleMod_BepInEx.csproj", "{BB3D4B9D-8F0E-43D7-A6E6-65979CC15ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMod_NML", "SimpleMod_NML\SimpleMod_NML.csproj", "{DB243F0F-7523-4B91-B69C-8A922472E484}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E6EA5249-6775-4B96-AC60-E7E82F9CF204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6EA5249-6775-4B96-AC60-E7E82F9CF204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6EA5249-6775-4B96-AC60-E7E82F9CF204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3D4B9D-8F0E-43D7-A6E6-65979CC15ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3D4B9D-8F0E-43D7-A6E6-65979CC15ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3D4B9D-8F0E-43D7-A6E6-65979CC15ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3D4B9D-8F0E-43D7-A6E6-65979CC15ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB243F0F-7523-4B91-B69C-8A922472E484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB243F0F-7523-4B91-B69C-8A922472E484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB243F0F-7523-4B91-B69C-8A922472E484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB243F0F-7523-4B91-B69C-8A922472E484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

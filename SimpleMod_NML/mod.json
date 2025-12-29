@@ -1,0 +1,8 @@
+{
+  "name": "Simple Mod",
+  "author": "Jean-Antoine d'Anglerais (le_ombre)",
+  "version": "2.0.0.0",
+  "description": "This mod adds a button that allows you to spawn a hidden Super Skeleton mob",
+  "RepoUrl": "https://github.com/Jean-Antoine-de-Anglerais/SimpleMod",
+  "iconPath": "icon.png"
+}

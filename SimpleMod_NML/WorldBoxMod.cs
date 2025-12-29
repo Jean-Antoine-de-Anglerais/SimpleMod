@@ -1,12 +1,13 @@
 using ai.behaviours;
 using System.Linq;
 using UnityEngine;
+using NeoModLoader.api;
 
-namespace SimpleMod_NativeModloader
+namespace SimpleMod_NML
 {
-    public class WorldBoxMod : MonoBehaviour
+    public class WorldBoxMod : BasicMod<WorldBoxMod>
     {
-        void Awake()
+        protected override void OnModLoad()
         {
             InitAssets();
             InitUI();

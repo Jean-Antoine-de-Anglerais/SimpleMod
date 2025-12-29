@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Общие сведения об этой сборке предоставляются следующим набором
@@ -8,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("This mod adds a button that allows you to spawn a hidden Super Skeleton mob")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jean-Antoine d'Anglerais (le_ombre)")]
-[assembly: AssemblyProduct("SimpleMod_NativeModloader")]
+[assembly: AssemblyProduct("SimpleMod_NML")]
 [assembly: AssemblyCopyright("Copyright © le_ombre 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("e6ea5249-6775-4b96-ac60-e7e82f9cf204")]
+[assembly: Guid("db243f0f-7523-4b91-b69c-8a922472e484")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

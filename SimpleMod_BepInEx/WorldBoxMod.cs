@@ -1,15 +1,24 @@
 using ai.behaviours;
+using BepInEx;
 using System.Linq;
 using UnityEngine;
 
-namespace SimpleMod_NativeModloader
+namespace SimpleMod_BepInEx
 {
-    public class WorldBoxMod : MonoBehaviour
+    [BepInPlugin("jean.worldbox.mods.simplemod", "Simple Mod", "2.0.0.0")]
+    public class WorldBoxMod : BaseUnityPlugin
     {
-        void Awake()
+        private bool _initialized = false;
+
+        public void Update()
         {
-            InitAssets();
-            InitUI();
+            if (global::Config.game_loaded && !_initialized)
+            {
+                InitAssets();
+                InitUI();
+
+                _initialized = true;
+            }
         }
 
         void InitAssets()
